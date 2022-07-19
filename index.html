@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North india trip plan(NIT WARANGAL)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img class="nitw" src="nitw.jpg" alt="" srcset="">
+    <div class="container">
+        <h1>NIT WARANGAL NORTH INDIA TRIP DETAILS</h1>
+        <p>Enter your details</p>
+        
+        <form action="index.php" method="post">
+            <input type="text" name="Name" id="name" placeholder="Enter your Name">
+            <input type="text" name="gender" id="name" placeholder="Enter your Gender">
+            <input type="email" name="Email" id="name" placeholder="Enter your Email">
+            <input type="Adress" name="Adress" id="name" placeholder="Enter your Adress">
+            <input type="phone number" name="phone number" id="name" placeholder="Enter your Phone number">
+            <textarea name="Your Views" id="desc" cols="30" rows="10" 
+             placeholder="enter your suggesstions"></textarea>
+             <button class="btn" type="submit">Submit</button>
+            </form>
+             
+
+    </div>
+    <script src="index.js"></script>
+
+    INSERT INTO `trip` 
+    (`s.no`, `name`, `gender`, `email`, `adress`, `phone_number`, `descrption`, `dt`) 
+    VALUES ('1', 'testname', 'male', 'ravell@gmail.com', 'sathuaplly', '23', 'hi hello namaste', '2022-07-18 15:52:52.000000');
+</body>
+</html>
+
